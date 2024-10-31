@@ -1,0 +1,515 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quasar Form Woocommerce add-on\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Myname <nucleusgenius@mail.com>\n"
+"Language-Team: nucleusgenius\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: admin.php:16
+msgid "Version"
+msgstr ""
+
+#: admin.php:26
+msgid "Settings"
+msgstr ""
+
+#: admin.php:27
+msgid "Design"
+msgstr ""
+
+#: admin.php:28
+msgid "Localization"
+msgstr ""
+
+#: admin.php:29
+msgid "Import/export settings"
+msgstr ""
+
+#: admin.php:33
+msgid "This addon works according to the following algorithm. In the main settings. You select the form created in the Quasar Form plugin. Then you connect the fields of this form with the woccomerce order fields so that the form data appears in the order."
+msgstr ""
+
+#: admin.php:38
+msgid "Error: Quasar Form plugin not installed"
+msgstr ""
+
+#: admin.php:44
+msgid "Main settings"
+msgstr ""
+
+#: admin.php:49
+msgid "Select form"
+msgstr ""
+
+#: admin.php:68
+msgid "Select the form that will be displayed in the product and used for quick ordering."
+msgstr ""
+
+#: admin.php:73
+msgid "Button text"
+msgstr ""
+
+#: admin.php:80 admin.php:81 admin.php:100 admin.php:101 admin.php:209
+#: admin.php:210 admin.php:1072 admin.php:1073
+msgid "Yes"
+msgstr ""
+
+#: admin.php:83 admin.php:84 admin.php:103 admin.php:104 admin.php:212
+#: admin.php:213 admin.php:1075 admin.php:1076
+msgid "No"
+msgstr ""
+
+#: admin.php:88
+msgid "Create a new order in woocommerce when submitting a quick order form."
+msgstr ""
+
+#: admin.php:108
+msgid "Enable collaboration with the Quasar Variable Attributes plugin"
+msgstr ""
+
+#: admin.php:118
+msgid "Button location"
+msgstr ""
+
+#: admin.php:122
+msgid "Product card"
+msgstr ""
+
+#: admin.php:125 admin.php:126 admin.php:171 admin.php:172
+msgid "After add to cart button"
+msgstr ""
+
+#: admin.php:128 admin.php:129
+msgid "Before quantity input field"
+msgstr ""
+
+#: admin.php:131 admin.php:132
+msgid "After a short description (this option will work with a product without a price)"
+msgstr ""
+
+#: admin.php:134 admin.php:135
+msgid "Product meta end"
+msgstr ""
+
+#: admin.php:140 admin.php:180
+msgid "Priority"
+msgstr ""
+
+#: admin.php:162
+msgid "Select the position of the button in the product card."
+msgstr ""
+
+#: admin.php:167
+msgid "Category"
+msgstr ""
+
+#: admin.php:169
+msgid "None"
+msgstr ""
+
+#: admin.php:174 admin.php:175
+msgid "Before shop loop item"
+msgstr ""
+
+#: admin.php:202
+msgid "Select the position of the button in the archive and category pages."
+msgstr ""
+
+#: admin.php:217
+msgid "Show the button in products with zero stock."
+msgstr ""
+
+#: admin.php:240
+msgid "Disable"
+msgstr ""
+
+#: admin.php:240
+msgid "Enable"
+msgstr ""
+
+#: admin.php:240
+msgid "Creating orders:"
+msgstr ""
+
+#: admin.php:242
+msgid "You can connect the form fields from Quasar Form with the Woocommerce order fields. This way, the data from your form fields will be transferred to the created woocommerce order."
+msgstr ""
+
+#: admin.php:247
+msgid "Default"
+msgstr ""
+
+#: admin.php:254
+msgid "Quantity"
+msgstr ""
+
+#: admin.php:263
+msgid "Quantity (available in Quasar Form pro)"
+msgstr ""
+
+#: admin.php:270 admin.php:293 admin.php:315 admin.php:337 admin.php:361
+#: admin.php:384 admin.php:407 admin.php:430 admin.php:452 admin.php:475
+#: admin.php:499
+msgid "Empty"
+msgstr ""
+
+#: admin.php:286
+msgid "First name"
+msgstr ""
+
+#: admin.php:309
+msgid "Last name"
+msgstr ""
+
+#: admin.php:331
+msgid "Email"
+msgstr ""
+
+#: admin.php:353
+msgid "Phone"
+msgstr ""
+
+#: admin.php:377
+msgid "Order notes"
+msgstr ""
+
+#: admin.php:400
+msgid "Address 1"
+msgstr ""
+
+#: admin.php:423
+msgid "City"
+msgstr ""
+
+#: admin.php:446
+msgid "State / Region"
+msgstr ""
+
+#: admin.php:468
+msgid "Company"
+msgstr ""
+
+#: admin.php:491
+msgid "Postcode"
+msgstr ""
+
+#: admin.php:752
+msgid "Country"
+msgstr ""
+
+#: admin.php:760
+msgid "Product information"
+msgstr ""
+
+#: admin.php:761
+msgid "This is how the block with product information will look like in the quick order form:"
+msgstr ""
+
+#: admin.php:769 admin.php:892 admin.php:1222
+msgid "Product name"
+msgstr ""
+
+#: admin.php:782 admin.php:1236 admin.php:1277 admin.php:1291
+msgid "Select option"
+msgstr ""
+
+#: admin.php:783 admin.php:1237
+msgid "Variation 1"
+msgstr ""
+
+#: admin.php:784 admin.php:1238
+msgid "Variation 2"
+msgstr ""
+
+#: admin.php:797
+msgid "Setting:"
+msgstr ""
+
+#: admin.php:807
+msgid "Show product image"
+msgstr ""
+
+#: admin.php:817
+msgid "Show product price"
+msgstr ""
+
+#: admin.php:826
+msgid "Show product name"
+msgstr ""
+
+#: admin.php:835
+msgid "Show the choice of product quantity in the order"
+msgstr ""
+
+#: admin.php:835 admin.php:855 admin.php:1177
+msgid "Disabled"
+msgstr ""
+
+#: admin.php:845
+msgid "Show variations"
+msgstr ""
+
+#: admin.php:850
+msgid "Text above the price"
+msgstr ""
+
+#: admin.php:855
+msgid "Text above the quantity"
+msgstr ""
+
+#: admin.php:862 admin.php:863
+msgid "To the left of the price"
+msgstr ""
+
+#: admin.php:865 admin.php:866
+msgid "To the right of the price"
+msgstr ""
+
+#: admin.php:870
+msgid "Сurrency icon position"
+msgstr ""
+
+#: admin.php:885
+msgid "Design:"
+msgstr ""
+
+#: admin.php:886
+msgid "Sections are boxes of price and quantity."
+msgstr ""
+
+#: admin.php:892 admin.php:906 admin.php:942 admin.php:1026
+msgid "disabled"
+msgstr ""
+
+#: admin.php:896 admin.php:920 admin.php:958 admin.php:1105 admin.php:1181
+msgid "Font size"
+msgstr ""
+
+#: admin.php:901 admin.php:925 admin.php:964 admin.php:1110 admin.php:1207
+msgid "Color"
+msgstr ""
+
+#: admin.php:906
+msgid "Blocks with quantity"
+msgstr ""
+
+#: admin.php:910 admin.php:946
+msgid "Font size of headings"
+msgstr ""
+
+#: admin.php:915 admin.php:952
+msgid "Color of headings"
+msgstr ""
+
+#: admin.php:930 admin.php:970 admin.php:1115
+msgid "Background color"
+msgstr ""
+
+#: admin.php:935 admin.php:976 admin.php:1162
+msgid "Border color"
+msgstr ""
+
+#: admin.php:942
+msgid "Block with price"
+msgstr ""
+
+#: admin.php:985
+msgid "Button"
+msgstr ""
+
+#: admin.php:989
+msgid "Note. The design of the button itself is configured in the Quasar Form -> Design -> Design of popup button"
+msgstr ""
+
+#: admin.php:993
+msgid "Align (for categories)"
+msgstr ""
+
+#: admin.php:1004
+msgid "Margin button: left, right, top, bottom (for categories)"
+msgstr ""
+
+#: admin.php:1016
+msgid "Margin button: left right top bottom (for card)"
+msgstr ""
+
+#: admin.php:1026
+msgid "Variations design:"
+msgstr ""
+
+#: admin.php:1031
+msgid "Variation picklist type"
+msgstr ""
+
+#: admin.php:1055 admin.php:1056
+msgid "Dropdown"
+msgstr ""
+
+#: admin.php:1058 admin.php:1059
+msgid "Checkbox"
+msgstr ""
+
+#: admin.php:1067
+msgid "The variations have images"
+msgstr ""
+
+#: admin.php:1084
+msgid "Style"
+msgstr ""
+
+#: admin.php:1090 admin.php:1091
+msgid "style-1"
+msgstr ""
+
+#: admin.php:1093 admin.php:1094
+msgid "style-2"
+msgstr ""
+
+#: admin.php:1101
+msgid "Attribute value"
+msgstr ""
+
+#: admin.php:1120
+msgid "Active color"
+msgstr ""
+
+#: admin.php:1125
+msgid "Active background"
+msgstr ""
+
+#: admin.php:1131 admin.php:1167
+msgid "Active border color"
+msgstr ""
+
+#: admin.php:1137
+msgid "Border width"
+msgstr ""
+
+#: admin.php:1143
+msgid "Border radius"
+msgstr ""
+
+#: admin.php:1152
+msgid "Padding: left right top bottom"
+msgstr ""
+
+#: admin.php:1172
+msgid "Box size"
+msgstr ""
+
+#: admin.php:1177
+msgid "Attribute name"
+msgstr ""
+
+#: admin.php:1187
+msgid "Font weight"
+msgstr ""
+
+#: admin.php:1251
+msgid "Localization:"
+msgstr ""
+
+#: admin.php:1254
+msgid "Required to fill"
+msgstr ""
+
+#: admin.php:1258
+msgid "Required"
+msgstr ""
+
+#: admin.php:1263
+msgid "No such variation"
+msgstr ""
+
+#: admin.php:1267
+msgid "Product with this set of options is out of stock"
+msgstr ""
+
+#: admin.php:1272
+msgid "Default option text"
+msgstr ""
+
+#: admin.php:1283 admin.php:1286 quasar-form-shop-main.php:167
+msgid "Select a value in each option"
+msgstr ""
+
+#: admin.php:1298
+msgid "Note. The text from messages you receive by email is configurable in the Quasar form plugin -> Setting -> Frontend text/localization"
+msgstr ""
+
+#: admin.php:1304
+msgid "Import/export"
+msgstr ""
+
+#: admin.php:1304
+msgid " (you can import settings and design sections)"
+msgstr ""
+
+#: admin.php:1310
+msgid "Select text to export"
+msgstr ""
+
+#: admin.php:1313
+msgid "Export form"
+msgstr ""
+
+#: admin.php:1314
+msgid "Export text"
+msgstr ""
+
+#: admin.php:1319
+msgid "Import form"
+msgstr ""
+
+#: admin.php:1320
+msgid "Incorrect text of export!"
+msgstr ""
+
+#: admin.php:1321
+msgid "Import text"
+msgstr ""
+
+#: admin.php:1323
+msgid "Apply import"
+msgstr ""
+
+#: admin.php:1324 admin.php:1335
+msgid "Error while saving"
+msgstr ""
+
+#: admin.php:1325 admin.php:1336
+msgid "Saved"
+msgstr ""
+
+#: admin.php:1327
+msgid "If you don't copy all the text when importing or exporting, this can lead to errors in the plugin! To import the current version of the settings, restart the page."
+msgstr ""
+
+#: admin.php:1332
+msgid "Save settings"
+msgstr ""
+
+#: admin.php:1346
+msgid "If the button in your theme does not display correctly, try different priority values. Priority affects where the button will be displayed. This is different for different themes."
+msgstr ""
+
+#: quasar-form-shop-main.php:115
+msgid "Select Color"
+msgstr ""
+
+#: quasar-form-shop-main.php:116
+msgid "Clear"
+msgstr ""
